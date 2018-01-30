@@ -16,7 +16,7 @@ containing the data into an application folder. Download myscript.sh and make su
 4) Open browser or terminal to interact with application (eg. for command line interaction: curl http://localhost:5000/car/2)
 5) Execute the 'myscript.sh' bash script in the terminal to run the commands provided in te doumentation
 
-####The Docker setup was not fully tested. The above implementation is fully functioning however####
+#The Docker setup was not fully tested. The above implementation is fully functioning however#
 The Dockerfile contains the script for creating the docker image. This requires 
 docker to be installed on the local machine. 
 1) The command to build the docker image from the command line is: "docker build -t <image_name>" 
